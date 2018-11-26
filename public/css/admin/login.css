@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+
+
+*{
+	font-family: 'Amiri';
+	word-wrap: break-word;
+}
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background: #1c1d26;
+}
+
+form{
+	direction: rtl;
+	text-align: right;
+}
+
+
+.form-container
+{
+	display: flex;
+	margin-top: 20%;
+	padding: 20px;
+	background-color: #263238;
+	color: #6B727F;
+	border-radius: 50px 0;
+}
+
+#submit{
+	transition: all .5s;
+    box-shadow: 1px 2px 0px black;
+}
+
+.icon-user-circle
+{
+	position: relative;
+    bottom: 90px;
+    right: 34%;
+    font-size: 100px;
+    color: #6B727F;
+    padding: 5px 0;
+}
